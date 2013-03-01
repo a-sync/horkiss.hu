@@ -1,0 +1,1 @@
+<?php $MENU = unserialize('a:4:{s:12:"cegismerteto";s:14:"Cégismertető";s:14:"szolgaltatasok";s:16:"Szolgáltatások";s:10:"biztositas";s:12:"Biztosítás";s:7:"geppark";s:8:"Géppark";}'); ?>

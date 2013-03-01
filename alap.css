@@ -1,0 +1,441 @@
+html, body {
+  background: transparent;
+  
+  color: #303030;
+  font-size: 14px;
+  
+  font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+  
+  text-align: center;
+  
+  margin: 0;
+  padding: 0;
+}
+
+#kontener {
+  width: 920px;
+  margin: 20px auto;
+  padding: 10px 20px 10px 20px;
+  text-align: left;
+  
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.9);
+  
+  box-shadow: 0 0 12px -4px black;
+  border-radius: 0 14px 0 14px;
+}
+
+a:link, a:visited {
+  color: #0008cf;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#nyelvek
+{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-align: right;
+}
+
+#nyelvek a:link, #nyelvek a:visited {
+  opacity: 0.5;
+  text-decoration: none;
+}
+#nyelvek a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+#nyelvek a img {
+  border: none;
+}
+
+
+#fejlec {
+  padding: 0 0 15px 0;
+  background-image: url("media/kamion.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  min-height: 60px;
+}
+
+#fejlec a:link, #fejlec a:visited, #fejlec a:hover, #fejlec a:active {
+  color: #303030;
+  font-size: 64px;
+  font-family: serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px gray;
+  text-decoration: none;
+}
+
+#fejlec h1 {
+  font-size: 14px;
+  font-style: italic;
+  font-family: Georgia, serif;
+  letter-spacing: 1px;
+  color: #c0c0c0;
+  margin: 0 0 0 15px;
+  padding: 0;
+  text-shadow: none;
+}
+
+#menu {
+  padding: 5px 10px 6px 10px;
+  border-top: 1px #c0c0c0 solid;
+  border-bottom: 1px #c0c0c0 solid;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  display: inline;
+  margin: 0;
+  padding: 0 15px 0 0;
+}
+
+#menu ul li a:link, #menu ul li a:visited {
+  color: #303030;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+#menu ul li a:hover {
+  color: #0008cf;
+  text-shadow: 1px 1px 0px lightgray;
+}
+
+#menu ul li a.aktiv {
+  border-bottom: 3px #c0c0c0 double;
+}
+
+.almenu:link, .almenu:visited {
+  position: relative;
+  top: -10px;
+  font-size: 16px;
+  color: #303030;
+  font-weight: bold;
+}
+
+.almenu:hover {
+  color: #0008cf;
+  text-shadow: 1px 1px 0px lightgray;
+  text-decoration: none;
+} 
+
+#tartalom {
+  line-height: 18px;
+  margin: 20px;
+}
+
+#menupont {
+  clear: both;
+}
+
+#menupont > p br:last-child {
+  line-height: 0;
+}
+
+#lablec {
+  text-align: center;
+  font-size: 11px;
+  color: gray;
+}
+
+#lablec a {
+  color: gray;
+}
+
+.inputok {
+  border: 0;
+}
+
+.inputok tr {
+  
+}
+
+.inputok tr td{
+  padding: 4px;
+  vertical-align: top;
+}
+
+.inputok input {
+  font-size: 14px;
+}
+
+.szoveg {
+  width: 300px;
+}
+
+.inputok textarea {
+
+}
+
+#forras {
+  width: 750px;
+  height: 400px;
+}
+
+.info {
+  font-style: italic;
+  color: darkgreen;
+}
+
+.hiba, .a_nyelv {
+  font-style: italic;
+  color: firebrick;
+}
+
+#a_menuk {
+  
+}
+
+#a_menuk th.rendez {
+  text-align: right;
+}
+
+#a_menuk tr td, #a_menuk tr th  {
+  padding: 4px 10px;
+}
+
+#szam_cimlap
+{
+  color: gray;
+  font-size: 11px;
+  font-style: italic;
+}
+
+#a_menuk td.szam {
+  font-size: 12px;
+  text-align: right;
+  cursor: default;
+}
+
+#a_menuk td.rendez {
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+  cursor: default;
+}
+
+#a_menuk td.rendez a.rfel:link, 
+#a_menuk td.rendez a.rfel:visited {
+  color: lightgray;
+  text-decoration: none;
+}
+#a_menuk td.rendez a.rfel:hover {
+  color: gray;
+}
+
+#a_menuk td.rendez a.rle:link, 
+#a_menuk td.rendez a.rle:visited {
+  color: lightgray;
+  text-decoration: none;
+}
+#a_menuk td.rendez a.rle:hover {
+  color: gray;
+}
+
+.rfoglal {
+  visibility: hidden;
+}
+
+#a_menuk td.torol, #a_menuk th.torol {
+  text-align: center;
+}
+
+#a_menuk td.torol a:link, #a_menuk td.torol a:visited,
+#a_kepek .kep .kepcim a:link, #a_kepek .kep .kepcim a:visited {
+  color: firebrick;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 1px 3px;
+}
+
+#a_menuk td.torol a:hover,
+#a_kepek .kep .kepcim a:hover {
+  color: white;
+  background-color: firebrick;
+  text-decoration: none;
+}
+
+img.zaszlo {
+  vertical-align: text-bottom;
+}
+
+#csatolt_kepek
+{
+  font-size: 16px;
+  float: right;
+}
+
+#csatolt_kepek a:link, #csatolt_kepek a:visited
+{
+  color: gray;
+}
+#csatolt_kepek a:hover
+{
+  color: #0008cf;
+  text-decoration: none;
+}
+
+#galeriak {
+  
+}
+
+#galeriak_cim {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#galeriak a.aktiv {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#galeriak a:link, #galeriak a:visited {
+  padding: 0 2px 0 2px;
+  font-family: sans-serif;
+}
+#galeriak a:hover {
+  
+}
+
+#a_kepek {
+  padding: 10px 0 10px 0;
+  clear: both;
+}
+
+#a_kepek .kep {
+  text-align: center;
+  float: left;
+  font-size: 12px;
+  color: gray;
+  padding: 10px 10px;
+}
+
+#a_kepek .kep .kepcim {
+  
+}
+
+#a_kepek .kep .kepcim span {
+  font-weight: bold;
+}
+
+#a_kepek .kep .kiskep:link, #a_kepek .kep .kiskep:visited
+{
+  text-decoration: none;
+  padding: 0 0 5px 0;
+}
+#a_kepek .kep .kiskep:hover img
+{
+  box-shadow: 5px 5px 9px -1px black;
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
+
+#a_kepek .kep .kiskep img
+{
+  border: none;
+  box-shadow: 3px 3px 6px -1px black;
+}
+
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+
+#feltoltes {
+  clear: both;
+  text-align: right;
+}
+
+#feltoltes input {
+  font-size: 16px;
+}
+
+.max_fajlmeret {
+  color: gray;
+  font-style: italic;
+  font-size: 12px;
+}
+
+#kepek {
+  text-align: center;
+  margin-top: 5px;
+}
+
+#kepek .kiskep:link, #kepek .kiskep:visited
+{
+  text-decoration: none;
+}
+
+#kepek .kiskep:hover img
+{
+  box-shadow: 5px 5px 9px -1px black;
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
+
+#kepek .kiskep img
+{
+  border: none;
+  box-shadow: 3px 3px 6px -1px black;
+  margin: 10px 15px;
+}
+
+/* jQ fancyzoom */
+#zoom {
+  position: absolute;
+  display: none;
+  z-index: 499;
+  box-shadow: 0px 5px 25px #000;
+}
+#zoom_img {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+#zoom_close {
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  left: -15px;
+  top: -15px;
+  width: 30px;
+  height: 30px;
+  background: url("media/closebox.png") no-repeat;
+}
+#zoom_spin {
+  position: absolute;
+  display: none;
+  z-index: 525;
+  width: 50px;
+  height: 50px;
+  background: url("media/spin.png") no-repeat;
+}
+
+#menupont table {
+margin:0;
+padding:0;
+}
+#menupont table, 
+#menupont td {
+border: 1px solid #000;
+border-collapse: collapse;
+}
+#menupont td {
+padding: 10px;
+}

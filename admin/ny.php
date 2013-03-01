@@ -1,0 +1,1 @@
+<?php $nyelvek = unserialize('a:3:{s:2:"hu";s:23:"/media/flag_icon_hu.gif";s:2:"en";s:23:"/media/flag_icon_gb.gif";s:2:"de";s:23:"/media/flag_icon_de.gif";}'); ?>

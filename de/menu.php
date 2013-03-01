@@ -1,0 +1,1 @@
+<?php $MENU = unserialize('a:1:{s:10:"willkommen";s:10:"Willkommen";}'); ?>
